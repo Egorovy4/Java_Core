@@ -39,6 +39,7 @@ public class Application {
 				System.out.println(Arrays.deepToString(carArrays) + "\n");
 				break;
 			case 3:
+				sc.close();
 				System.out.println("Good bye !");
 				key = false;
 				break;
