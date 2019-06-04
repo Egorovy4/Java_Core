@@ -143,6 +143,7 @@ public class Application {
 				break;
 				
 			case "0":
+				sc.close();
 				showMenu = false;
 				System.out.println("Thank for using, goodbye !");
 				break;

@@ -10,6 +10,7 @@ public class Application {
 		double x = scanner.nextDouble();
 		System.out.println("Enter y !");
 		double y = scanner.nextDouble();
+		scanner.close();
 		
 		if(x % 1 != 0 || y % 1 != 0) {
 			System.out.println("Entering failed !");

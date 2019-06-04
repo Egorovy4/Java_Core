@@ -11,6 +11,7 @@ public class Application {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter your number !");
 		double enteredNumber = scanner.nextDouble();
+		scanner.close();
 		
 		if(enteredNumber % 1 != 0) {
 			System.out.println("Entering failed !");
